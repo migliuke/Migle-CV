@@ -1,0 +1,82 @@
+.conteiner{
+    background-color: rgba(154, 244, 10, 0.261);
+    width: 80%;
+    height: 100%;
+    margin:auto;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.parent{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(136, 208, 28, 0.395);
+    height: 800px;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    margin:20px;
+    flex: 50%;
+    flex-wrap: wrap;
+    overflow:auto;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url('./Miglė\ Končytė.jpg');
+    margin:auto;
+    object-fit:fill;
+    background-size: cover;
+}
+.flexbox{
+    width: 100px;
+    height: 100px;
+    background-color:rgba(246, 57, 88, 0.208);
+    padding-left: 10px;
+    
+}
+header{
+    margin:auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.first-left{
+    width: 300px;
+    height: 200px;
+    }
+.first-right{
+    width: 300px;
+    height: 200px;
+    }  
+.middle-left{
+    width:400px;
+    height: 200px;
+
+}
+.middle-right{
+    width:200px;
+    height: 200px;
+  
+
+}
+.bottom-left{
+    width:300px;
+    height: 200px;
+max-width: 1024px;
+  
+}
+.bottom-right{
+    width:300px;
+    height: 200px;
+}
+
+@media (max-width: 700px)
+{
+    .flexbox{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
